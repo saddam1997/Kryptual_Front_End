@@ -12,7 +12,7 @@
     crowdfunding, fund raising, top ICO, funding is easy, Kryptual, Cryptual, Bitcoin, Ripple, Ethereum, ICO, New ICO, ICO news, ICO countdown ,  Tokendesk, ICO listing,  ICO whitepaper,
     ICO rating, ICO tracker">
     <meta name="author" content="Kryptual">
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/fave-icon.png">
+     <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/fave-icon.png">
     <link rel="icon" type="image/png" href="./assets/img/fave-icon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>Kryptual | Now Funding is Easy</title>
@@ -78,7 +78,7 @@ table, th, td {
     <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll="500">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="" rel="tooltip" title="Kryptual" data-placement="bottom" target="_blank">
+                <a class="navbar-brand" href="index.php" rel="tooltip" title="Kryptual" data-placement="bottom">
                    <img id="logo-top-white" src="assets/img/kryptual_logo_white.png" alt="Kryptual" style="width: 175px;">
                    <img id="logo-top-color" class="" src="assets/img/kryptual_logo.png" alt="Kryptual" style="width: 175px;display: none">
                 </a>
@@ -88,7 +88,8 @@ table, th, td {
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse" data-nav-image="./assets/img/kryptual_logo.png" data-color="orange">
+            <!-- data-nav-image="./assets/img/kryptual_logo.png" data-color="orange" -->
+            <div class="collapse navbar-collapse" >
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#conus" >
@@ -99,7 +100,7 @@ table, th, td {
 
                      <li class="nav-item">
                         <a class="nav-link" href="http://103.201.142.41:90/krptual_dist/#/login" >
-                             <i class="now-ui-icons users_circle-08"></i>
+                            <i class="now-ui-icons users_circle-08"></i>
                             <p>Login</p>
                         </a>
                     </li>
@@ -124,8 +125,8 @@ table, th, td {
             <div class="content-center">
                 <div class="row">
                     <div class="col-md-8 ml-auto mr-auto">
-                        <h1 class="title">Kryptual Raferal Program</h1>
-                        <h4>Meet the amazing team behind this project and find out more about how we work.</h4>
+                        <h1 class="title">Kryptual Reseller Programme</h1>
+                        <h4>The crypto market never stops, neither do we. For any queries, get in touch with us.</h4>
                     </div>
                 </div>
             </div>
@@ -147,7 +148,7 @@ table, th, td {
                                         <img src="assets/img/join.png">
                                     </div>
                                     <h4 class="info-title">Join</h4>
-                                    <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                    <p class="description">Join the revolution of blockchain and cryptocurrency technology and find the next big thing to invest in. Create account on our site and become a part of the Kryptual marketplace.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -156,7 +157,7 @@ table, th, td {
                                         <img src="assets/img/refer.png">
                                     </div>
                                     <h4 class="info-title">Refer</h4>
-                                    <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                    <p class="description">Once you become our member then you can refer Kryptual to everyone you know. Spread the word by sharing your unique referral link through blog posts, articles, emails, Facebook posts and tweets.</p>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -165,7 +166,7 @@ table, th, td {
                                         <img src="assets/img/earn.png">
                                     </div>
                                     <h4 class="info-title">Earn</h4>
-                                    <p class="description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                    <p class="description">When your friend makes a transaction, you'll get paid. There's no limit to how many people you can refer, so there's no limit to the amount of bonus you can earn.</p>
                                 </div>
                             </div>
                         </div>
@@ -210,8 +211,7 @@ table, th, td {
                                 </div>
                                 <div class="description">
                                     <h4 class="info-title">Give us a ring</h4>
-                                    <p class="description"> Michael Jordan
-                                        <br> +40(0) 207 689 7888
+                                     +40(0) 207 689 7888
                                         <br> Mon - Fri, 8:00-22:00
                                     </p>
                                 </div>
@@ -267,7 +267,7 @@ table, th, td {
                                                 <div class="form-check">
                                                     <label class="form-check-label">
                                                         <input class="form-check-input" type="checkbox" required="">
-                                                        <span class="form-check-sign"></span>
+                                                        <span class="form-check-sign" style="padding: 4px 20px 0px;"></span>
                                                         I'm not a robot
                                                     </label>
                                                 </div>
@@ -285,7 +285,7 @@ table, th, td {
             </div>
                <div class="section section-footers" style="padding: 0;" data-background-color="gray">
                 <div id="footer-areas">
-                     <footer class="footer footer-white footer-big">
+                    <footer class="footer footer-white footer-big">
                         <div class="container">
                             <div class="content">
                                 <div class="row">
@@ -304,15 +304,16 @@ table, th, td {
                                                     About Us
                                                 </a>
                                             </li>
-                                            
+                                           
                                         </ul>
+
                                         <div style="margin-top: 20px;">
-                                            <h5>Referral</h5>
+                                            <h5>Become a Reseller</h5>
                                         <ul class="links-vertical">
                                             
                                             <li>
-                                                <a href="raferal_program.html" target="_blank">
-                                                    Referral
+                                                <a href="reseller.php" target="_blank">
+                                                    Reseller
                                                 </a>
                                             </li>
                                             
@@ -324,19 +325,21 @@ table, th, td {
                                         <ul class="links-vertical">
                                             <li>
                                                 <a href="faq.php">
-                                                    Sales FAQ
+                                                    FAQ
                                                 </a>
-                                            </li>                                            
+                                            </li>
+                                           
                                         </ul>
                                     </div>
                                     <div class="col-md-2">
                                         <h5>Legal</h5>
-                                        <ul class="links-vertical">                                            
+                                        <ul class="links-vertical">
                                             <li>
-                                                <a href="PrivacyandCookiePolicy.php">
+                                                <a href="privacy_policy.php">
                                                     Privacy and Policy
                                                 </a>
                                             </li>
+                                            
                                         </ul>
                                     </div>
                                    
@@ -345,14 +348,13 @@ table, th, td {
                                         <p style="color: black;">
                                             Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.
                                         </p>
-                                        <form class="form form-newsletter" method="post" action="apis/apis.php" >
+                                        <form class="form form-newsletter" method="post" action="" >
                                             <div class="form-group">
                                                 <input type="email" id="suscribeemail" name="email" class="form-control" placeholder="Your Email...">
  
                                             </div>
-                                            <input type="hidden"  name="q" value="subscribe" class="form-control" placeholder="Your Email...">
-                                                 
-                                            <button type="submit" class="btn btn-primary btn-icon btn-round" name="button" onclick="getsubscribe();">
+                                            
+                                            <button type="button" class="btn btn-primary btn-icon btn-round" name="button" onclick="return getsubscribe();">
                                                 <i class="now-ui-icons ui-1_email-85"></i>
                                             </button>
                                         </form>
@@ -362,28 +364,13 @@ table, th, td {
                             <hr />
                             <ul class="social-buttons">
                                 <li>
-                                    <a href="#" class="btn btn-icon btn-neutral btn-twitter btn-lg">
+                                    <a target="_blank" href="https://twitter.com/kryptual" class="btn btn-icon btn-neutral btn-twitter btn-lg">
                                         <i class="fa fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="btn btn-icon btn-neutral btn-facebook btn-lg">
+                                    <a target="_blank" href="https://www.facebook.com/kryptual" class="btn btn-icon btn-neutral btn-facebook btn-lg">
                                         <i class="fa fa-facebook-square"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-icon btn-neutral btn-dribbble btn-lg">
-                                        <i class="fa fa-dribbble"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-icon btn-neutral btn-google btn-lg">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-icon btn-neutral btn-youtube btn-lg">
-                                        <i class="fa fa-youtube-play"></i>
                                     </a>
                                 </li>
                             </ul>
@@ -409,14 +396,19 @@ table, th, td {
 <script src="apis/api.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function() {
-        getalltokens();
+        getalltokens(6);
+     // swal("Here's a message!")
     });
 </script>
+
+<script src="https://lipis.github.io/bootstrap-sweetalert/dist/sweetalert.js" type="text/javascript"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115484250-1"></script>
 
+<link href="https://lipis.github.io/bootstrap-sweetalert/dist/sweetalert.css" rel="stylesheet" />
 <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
 <script src="./assets/js/plugins/moment.min.js"></script>
+
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
 <script src="./assets/js/plugins/bootstrap-switch.js"></script>
 <!--    Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
@@ -438,33 +430,6 @@ table, th, td {
 $(document).ready(function() {
     // the body of this function is in assets/js/now-ui-kit.js
     nowuiKit.initSliders();
-});
-</script>
-<script type="text/javascript">
-    $('.counter').each(function() {
-  var $this = $(this),
-      countTo = $this.attr('data-count');
-  
-  $({ countNum: $this.text()}).animate({
-    countNum: countTo
-  },
-
-  {
-
-    duration: 8000,
-    easing:'linear',
-    step: function() {
-      $this.text(Math.floor(this.countNum));
-    },
-    complete: function() {
-      $this.text(this.countNum);
-      //alert('finished');
-    }
-
-  });  
-  
-  
-
 });
 </script>
 

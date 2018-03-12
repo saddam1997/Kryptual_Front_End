@@ -24,11 +24,29 @@
     <link href="./assets/css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/demo.css" rel="stylesheet" />
-    
-
-
-
-   
+    <link href="./assets/css/slick.css" rel="stylesheet" />
+    <link href="./assets/css/slick-theme.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <!-- owl -->
+    <!-- <link href="./assets/css/owl.carousel.css" rel="stylesheet" />
+     <link href="./assets/css/owl.theme.css" rel="stylesheet" /> -->
+<!-- 
+   <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        setting-name: setting-value
+      });
+    });
+  </script> -->
+ <!--  <script type="text/javascript">
+      $(document).ready(function() {
+ 
+  $(".owl-carousel").owlCarousel();
+ 
+});
+  </script> -->
+  
 </head>
 
 <body class="index-page">
@@ -36,7 +54,7 @@
     <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll="500">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="" rel="tooltip" title="Kryptual" data-placement="bottom" target="_blank">
+                <a class="navbar-brand" href="index.php" rel="tooltip" title="Kryptual" data-placement="bottom">
                    <img id="logo-top-white" src="assets/img/kryptual_logo_white.png" alt="Kryptual" style="width: 175px;">
                    <img id="logo-top-color" class="" src="assets/img/kryptual_logo.png" alt="Kryptual" style="width: 175px;display: none">
                 </a>
@@ -46,7 +64,8 @@
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
             </div>
-            <div class="collapse navbar-collapse" data-nav-image="./assets/img/kryptual_logo.png" data-color="orange">
+            <!-- data-nav-image="./assets/img/kryptual_logo.png" data-color="orange" -->
+            <div class="collapse navbar-collapse" >
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#conus" >
@@ -78,12 +97,12 @@
     <div class="wrapper" style="background: #5ac8e2;">
         <div class="cd-section" id="headers">
             <!--     *********     HEADER 1      *********      -->
-            <div style="width: 100%; height: 750px;">
+            <div style="width: 100%; height: 610px;">
                 
                 <div class="frame">
                     <div class="plane-container">
                         <a href="#" target="_blank">
-                        <img src="assets/img/plain.png" /></a>
+                        <img src="assets/img/plain.png" alt="kryptual" /></a>
 
                     </div>
                     <script type="text/javascript">
@@ -217,143 +236,341 @@
                             </div>
                         </div>
                     </div> -->
-                    <div class="blogs-5" data-background-color="gray">
-                <div class="container">
-                    <div class="row">
-                        <div class="feature-title">
-                            <div class="col-md-10 ml-auto mr-auto">
-                                <h2 class="title">Featured ICOs</h2>
-                                <div class="row">
-                                 <div class="col-md-4"><!-- endorsed -->
-                                 </div>
-                                    <div class="col-md-4"><!-- endorsed -->
-                                        <div class="card card-blog">
-                                            <div class="head-adn">
-                                                
-                                                <div class="head-st-rt">
-                                                    <P style="font-weight: bold;">Start Days</P>
-                                                    <p>20 hrs</p>
-                                                </div>
-                                                <script type="text/javascript">
-                                                    $(function () {
-                                                      $('[data-toggle="tooltip"]').tooltip()
-                                                    })
-                                                </script>
-                                                <div class="head-ico-img">
-                                                   <a href="#" data-toggle="tooltip" data-placement="top" title="endorsed"><img src="assets/img/endorsed.png"></a> 
-                                                </div>
-                                                
-                                            </div>
-                                            <div class="endros-logo">
-                                                <div class="en-img">
-                                                    <img src="assets/img/1.png" class="img-circle">
-                                                </div>
-                                                <div class="en-name">
-                                                    <p>BoutsPro</p>
+                    <div class="container">
+                        <div class="card-start-a">
+                        <div class="main">
+                          <!-- <div class="slider slider-for">
+                            <div><h3>1</h3></div>
+                            <div><h3>2</h3></div>
+                            <div><h3>3</h3></div>
+                            <div><h3>4</h3></div>
+                            <div><h3>5</h3></div>
+                          </div> -->
+                          <h2 class="title text-center">Top ICOs</h2>
+                          <div class="slider slider-nav">
+                            <div class="">
+                                <div class="col-sm-12">
+                                    <div class="my-a-card">
+                                        <div class="row" style="padding: 20px;">
+
+                                            <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                                <div class="card-a-img">
+                                                    <img src="assets/img/dawn.png" style="width: 100%; height: 100%;" />
                                                 </div>
                                             </div>
 
-                                            <div class="en-name1">
-                                                <p class="pull-left" style="font-weight: bold;">Token</p>
-                                                <p class="pull-right">BoutsPro</p>
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Value per Token:</b></div>
+                                                    <div class="col-sm-12">$5.8357 @ 0.008338 Eth (-3.35%)</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Token Holders:</b></div>
+                                                    <div class="col-sm-12">289828 addresses</div>
+                                                </div>
+                                                <div style="text-align: center; ">
+                                                    <a href="https://eos.io/"  target="_blank" class="pull-right">View</a>
+                                                </div>
                                             </div>
-                                            <div class="en-name1">
-                                                <p class="pull-left" style="font-weight: bold;">Ticker</p>
-                                                <p class="pull-right">BTSP</p>
-                                            </div>
-                                                
                                             
                                         </div>
-                                    </div>
-                                     <div class="col-md-4"><!-- endorsed -->
-                                 </div>
-                                  
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-                    
-               <div id="pablo" class="features-7 section-image" style="background-image: url('assets/img/bg11.jpg')">
-                <div class="col-md-8 mr-auto ml-auto text-center">
-                    <h2 class="title"> Generate. List. Invest</h2>
-                    <h4 class="description">Kryptual is a web platform based on Blockchain technology. It is a marketplace for ICO crowdfunding, providing investors a solution to purchase Tokens in a faster, safer and more reliable way.</h4>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-6 px-0">
-                            <div class="col-sm-12">
-                                <div class="info info-horizontal">
-                                    <div class="icon">
-                                        <i class="now-ui-icons design-2_html5"></i>
-                                    </div>
-                                    <div class="description">
-                                        <h5 class="info-title">Live Tracking</h5>
-                                        <p class="description">Know what you own and why you own it. Track your investments in real time. </p>
-                                    </div>
-                                </div>
-                                <div class="info info-horizontal">
-                                    <div class="icon">
-                                        <i class="now-ui-icons design_palette"></i>
-                                    </div>
-                                    <div class="description">
-                                        <h5 class="info-title">Global. Safe. Easy</h5>
-                                        <p class="description">Built with highest security standards, we accept major cryptocurrency assets from anyone in the world. </p>
-                                    </div>
-                                </div>
-                                <div class="info info-horizontal">
-                                    <div class="icon">
-                                        <i class="now-ui-icons design-2_ruler-pencil"></i>
-                                    </div>
-                                    <div class="description">
-                                        <h5 class="info-title">Enhance your ICO</h5>
-                                        <p class="description">Opt from numerous available add-ons such as PR consulting , ICO pricing, Audit report and many more and take your idea the next mile. </p>
+                                        
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="image-container">
-                                <img src="assets/img/ipad3.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="cards" class="section section-cards" data-background-color="gray">                    
-                    <div class="cards">
-                    <div class="container text-center" style="padding: 10px 30px;">
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="my-a-card">
+                                        <div class="row" style="padding: 20px;">
 
-                    <div class="row">
-                    <div class="col-sm-6"></div>
-                            <div class="col-md-2">
-                                <div class="form-group">
-                                    <label for="exampleSelect1">Example select</label>
-                                    <select class="form-control selectdata1" id="exampleSelect1">
-                                     <option value="Sortby" > Sort By</option>
-                                      <option value="supply" > Supply</option>
-                                      <option value="date" > Date</option>
-                                    </select>
-                                  </div>
+                                            <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                                <div class="card-a-img">
+                                                    <img src="assets/img/tron.png" class="img-circle" style="width: 100%; height: 100%;" />
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Value per Token:</b></div>
+                                                    <div class="col-sm-12">$5.8357 @ 0.008338 Eth (-3.35%)</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Token Holders:</b></div>
+                                                    <div class="col-sm-12">289828 addresses</div>
+                                                </div>
+                                                <div style="text-align: center; ">
+                                                    <a href="https://tron.network/enindex.html" class="pull-right" target="_blank">View</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        
-                        <div class="col-md-2">
-                            <div class="form-group">
-                                    <label for="exampleSelect2 ">Example select</label>
-                                   
-                                 <select class="form-control selectdata" id="sort" >
-                                   <option value="0">--Select--</option>
-                                     
-                                      
-                                    </select>
-                                  </div>
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="my-a-card">
+                                        <div class="row" style="padding: 20px;">
+
+                                            <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                                <div class="card-a-img">
+                                                    <img src="assets/img/omisego.png" style="margin-top: 15px; margin -left: 5px; " />
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Value per Token:</b></div>
+                                                    <div class="col-sm-12">$13.8374 @ 0.019921 Eth (-1.40%)</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Token Holders:</b></div>
+                                                    <div class="col-sm-12">597454 addresses</div>
+                                                </div>
+                                                <div style="text-align: center; ">
+                                                    <a href="https://omisego.network/" target="_blank" class="pull-right">View</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="my-a-card">
+                                        <div class="row" style="padding: 20px;">
+
+                                            <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                                <div class="card-a-img">
+                                                    <img src="assets/img/qtum.png" style="width: 100%; height: 100%;" />
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Value per Token:</b></div>
+                                                    <div class="col-sm-12">$18.3488 @ 0.026634 Eth (-3.76%)</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Token Holders:</b></div>
+                                                    <div class="col-sm-12">19321 addresses</div>
+                                                </div>
+                                                <div style="text-align: center; ">
+                                                    <a href="https://qtum.org/en/" target="_blank" class="pull-right">View</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="my-a-card">
+                                        <div class="row" style="padding: 20px;">
+
+                                           <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                                <div class="card-a-img">
+                                                    <img src="assets/img/icon.png"  style="width: 100%; height: 100%;" />
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Value per Token:</b></div>
+                                                    <div class="col-sm-12">$2.6178 @ 0.003792 Eth (-1.91%)</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Token Holders:</b></div>
+                                                    <div class="col-sm-12">42357 addresses </div>
+                                                </div>
+                                                 <div style="text-align: center; ">
+                                                    <a href="https://icon.foundation/?lang=en" target="_blank" class="pull-right">View</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div>
+                                <div class="col-sm-12">
+                                    <div class="my-a-card">
+                                        <div class="row" style="padding: 20px;">
+
+                                            <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                                <div class="card-a-img">
+                                                    <img src="assets/img/icon.png"  style="width: 100%; height: 100%;" />
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Value per Token:</b></div>
+                                                    <div class="col-sm-12">$2.6178 @ 0.003792 Eth (-1.91%)</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Token Holders:</b></div>
+                                                    <div class="col-sm-12">42357 addresses No.Of.Transfers:</div>
+                                                </div>
+                                                <div style="text-align: center; ">
+                                                    <a href="https://icon.foundation/?lang=en" target="_blank" class="pull-right">View</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- <div>
+                                <div class="col-sm-12">
+                                    <div class="my-a-card">
+                                        <div class="row" style="padding: 20px;">
+
+                                            <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                                <div class="card-a-img">
+                                                    <img src="assets/img/dawn.png" />
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="row" style="border-bottom: 1px solid #d8d8d8;">
+                                                    <div class="col-sm-4">Value per Token:</div>
+                                                    <div class="col-sm-8">$5.8357 @ 0.008338 Eth (-3.35%)</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-5">Token Holders:</div>
+                                                    <div class="col-sm-7">289828 addresses</div>
+                                                </div>
+                                                <div style="text-align: center; ">
+                                                    <a href="" class="pull-right">View</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                          </div>
+                          <div class="action">
+                            <!-- <a href="#" data-slide="3">go to slide 3</a>
+                            <a href="#" data-slide="4">go to slide 4</a>
+                            <a href="#" data-slide="5">go to slide 5</a> -->
+                          </div>
                         </div>
-                     
+                        
+                       
+                            
+                             
+                        </div>
                     </div>
-                    <div class="row my-btn">
-                                <div class="col-sm-2"></div>
-                                 <div class="col-sm-8">
+                   
+                    <div class="blogs-5" data-background-color="gray">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="feature-title">
+                                    <div class="col-md-10 ml-auto mr-auto">
+                                        <h2 class="title">Featured ICOs</h2>
+                                        <div class="row">
+                                            <div class="col-md-4"><!-- endorsed -->
+                                            </div>
+                                            <div class="col-md-4"><!-- endorsed -->
+                                                <div class="card card-blog">
+                                                    <div class="head-adn">
+                                                        
+                                                        <div class="head-st-rt">
+                                                            <P style="font-weight: bold;">Start Days</P>
+                                                            <p>20 hrs</p>
+                                                        </div>
+                                                       
+                                                        <div class="head-ico-img">
+                                                           <a href="#"><img src="assets/img/endorsed.png" alt="kryptual" \></a> 
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <div class="endros-logo">
+                                                        <div class="en-img">
+                                                            <img src="assets/img/boutspro.jpeg" class="img-circle" alt="Kryptual">
+                                                        </div>
+                                                        <div class="en-name">
+                                                            <p>BoutsPro</p>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="en-name1">
+                                                        <p class="pull-left" style="font-weight: bold;">Token</p>
+                                                        <p class="pull-right">BoutsPro</p>
+                                                    </div>
+                                                    <div class="en-name1">
+                                                        <p class="pull-left" style="font-weight: bold;">Ticker</p>
+                                                        <p class="pull-right">BTSP</p>
+                                                    </div>
+                                                    <div class="view text-center">
+                                                        <a href="https://www.bouts.pro/" target="_blank" class="btn btn-primary hidesee" style="border-radius: 30px; padding: 10px 30px;">View</a>
+                                                    </div>
+                                                        
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4"><!-- endorsed -->
+                                            </div>
+                                          
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               <!-- Generate. List. Invest -->
+                <div class="generate-a">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 mr-auto ml-auto text-center">
+                                <h2 class="title">Generate. List. Invest</h2>
+                                <h4 class="description">Kryptual is a web platform based on Blockchain technology. It is a marketplace for ICO crowdfunding, providing investors a solution to purchase Tokens in a faster, safer and more reliable way.</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="info info-hover">
+                                    <div class="icon icon-primary">
+                                        <img src="assets/img/live.png" style="width: 15%;">
+                                    </div>
+                                    <h4 class="info-title">Live Tracking</h4>
+                                    <p class="description">Know what you own and why you own it. Track your investments in real time.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="info info-hover">
+                                    <div class="icon icon-success">
+                                       <img src="assets/img/global.png" style="width: 15%;">
+                                    </div>
+                                    <h4 class="info-title">Global. Safe. Easy</h4>
+                                    <p class="description">Built with highest security standards, we accept major cryptocurrency assets from anyone in the world.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="info info-hover">
+                                    <div class="icon icon-warning">
+                                        <img src="assets/img/enhance.png" style="width: 15%;">
+                                    </div>
+                                    <h4 class="info-title">Enhance your ICO</h4>
+                                    <p class="description">Opt from numerous available add-ons such as PR consulting , ICO pricing, Audit report and many more and take your idea the next mile.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Generate. List. Invest End -->
+                <div id="cards" class="section section-cards" data-background-color="gray">                    
+                    <div class="cards">
+                        <div class="container text-center" style="padding: 10px 30px;">
+                            <div class="row my-btn">
+                                
+                                 <div class="col-sm-7">
                                     <ul class="nav nav-pills nav-pills-primary" role="tablist">
 
                                      <li class="nav-item">
@@ -380,240 +597,364 @@
                                        
                                     </ul>
                                 </div>
+                                <div class="col-sm-5">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <p style="font-size: 15px; margin-top: 8px;">Filter By</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group">
+                                                <select class="form-control selectdata1" id="exampleSelect1">
+                                                 <option value="Sortby" > Sort By</option>
+                                                  <option value="supply" > Supply</option>
+                                                  <option value="date" > Date</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                             <div class="form-group">      
+                                                <select class="form-control selectdata" id="sort" >
+                                                <option value="0">--Select--</option> 
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                    </div>
-                         <div class="container">
+                        </div>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="card card-pricing card-raised">
+                                        <div class="card-body">
+                                            <div class="icon icon-danger my-car-a">
+                                                <img src="assets/img/bg40.jpg" class="img-responsive">
+                                            </div>
+                                            <h4 class="category text-danger" style="margin-bottom: -18px;">
+                                                <i class="now-ui-icons media-2_sound-wave"></i>OP5</h4>
+                                            <h3 class="card-title">OP5</h3>
+                                            <div class="my-rate-list">
+                                                <div class="rat-a">
+                                                    <span class="pull-left"> 
+                                                        Rate
+                                                    </span> 
+                                                    <span class="pull-right">Market cap</span>
+                                                </div>
+
+                                                <div class="rat-b">
+                                                    <span class="pull-left"> 
+                                                       1000
+                                                    </span> 
+                                                    <span class="pull-right">1000000</span>
+                                                </div>
+                                                <div class="price" style="padding: 0 20px;width: 100%;float: left; margin-top: 15px;"> 
+                                                    <h4 style="font-size: 15px;" id="demo1">16d 0h 19m 24s </h4> 
+                                                </div>
+                                            
+                                            </div>
+                                            <a href="#pablo" class="btn btn-primary btn-round">
+                                                View
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card card-pricing card-raised">
+                                        <div class="card-body">
+                                            <div class="icon icon-danger my-car-a">
+                                                <img src="assets/img/bg40.jpg" class="img-responsive">
+                                            </div>
+                                            <h4 class="category text-danger" style="margin-bottom: -18px;">
+                                                <i class="now-ui-icons media-2_sound-wave"></i>OP5</h4>
+                                            <h3 class="card-title">OP5</h3>
+                                            <div class="my-rate-list">
+                                                <div class="rat-a">
+                                                    <span class="pull-left"> 
+                                                        Rate
+                                                    </span> 
+                                                    <span class="pull-right">Market cap</span>
+                                                </div>
+
+                                                <div class="rat-b">
+                                                    <span class="pull-left"> 
+                                                       1000
+                                                    </span> 
+                                                    <span class="pull-right">1000000</span>
+                                                </div>
+                                                <div class="price" style="padding: 0 20px;width: 100%;float: left; margin-top: 15px;"> 
+                                                    <h4 style="font-size: 15px;" id="demo1">16d 0h 19m 24s </h4> 
+                                                </div>
+                                            
+                                            </div>
+                                            <a href="#pablo" class="btn btn-primary btn-round">
+                                                View
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card card-pricing card-raised">
+                                        <div class="card-body">
+                                            <div class="icon icon-danger my-car-a">
+                                                <img src="assets/img/bg40.jpg" class="img-responsive">
+                                            </div>
+                                            <h4 class="category text-danger" style="margin-bottom: -18px;">
+                                                <i class="now-ui-icons media-2_sound-wave"></i>OP5</h4>
+                                            <h3 class="card-title">OP5</h3>
+                                            <div class="my-rate-list">
+                                                <div class="rat-a">
+                                                    <span class="pull-left"> 
+                                                        Rate
+                                                    </span> 
+                                                    <span class="pull-right">Market cap</span>
+                                                </div>
+
+                                                <div class="rat-b">
+                                                    <span class="pull-left"> 
+                                                       1000
+                                                    </span> 
+                                                    <span class="pull-right">1000000</span>
+                                                </div>
+                                                <div class="price" style="padding: 0 20px;width: 100%;float: left; margin-top: 15px;"> 
+                                                    <h4 style="font-size: 15px;" id="demo1">16d 0h 19m 24s </h4> 
+                                                </div>
+                                            
+                                            </div>
+                                            <a href="#pablo" class="btn btn-primary btn-round">
+                                                View
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="container">
                             <div class="row" id="tokensdetail"></div>
-                            <div class="row text-center" id="seemore" style="display: none;"><div class="col-12"><a href="javascript:;" onclick="getalltokens('All');" class="btn btn-primary hidesee">See More ...</a></div></div>
-                       
-                    </div>
+                            <div class="row text-center" id="seemore" style="display: none;">
+                                <div class="col-12"><a href="javascript:;" onclick="getalltokens('All');" class="btn btn-primary hidesee">See More ...</a>
+                                </div>
+                            </div>
+                           
+                        </div> -->
                             
                     </div>
                </div>
 
                <!-- contat -->
-               <div id="conus" class="contactus-1 section-image" style="background-image: url('assets/img/contact1.jpg')">
-                <div class="container" >
-                    <div class="row">
-                        <div class="col-md-5">
-                            <h2 class="title">Get in Touch</h2>
-                            <h4 class="description">The crypto market never stops, neither do we. For any queries, get in touch with us.</h4>
-                            <div class="info info-horizontal">
-                                <div class="icon icon-primary">
-                                    <i class="now-ui-icons location_pin"></i>
-                                </div>
-                                <div class="description">
-                                    <h4 class="info-title">Find us at the office</h4>
-                                    <p class="description"> UK -Kemp House, 
-                                        <br> 160 City Road,     London, 
-                                        <br> United Kingdom
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="info info-horizontal">
-                                <div class="icon icon-primary">
-                                    <i class="now-ui-icons tech_mobile"></i>
-                                </div>
-                                <div class="description">
-                                    <h4 class="info-title">Give us a ring</h4>
-                                    <p class="description"> Michael Jordan
-                                        <br> +40(0) 207 689 7888
-                                        <br> Mon - Fri, 8:00-22:00
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-5 ml-auto mr-auto">
-                            <div class="card card-contact card-raised">
-                                <form role="form" id="contact-form" method="post" action="">
-                                    <div class="card-header text-center">
-                                        <h4 class="card-title">Contact Us</h4>
+               <div id="conus" class="contactus-1 section-image" style="background: #59c8e2;">
+                    <div class="container" >
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h2 class="title">Get in Touch</h2>
+                                <h4 class="description">The crypto market never stops, neither do we. For any queries, get in touch with us.</h4>
+                                <div class="info info-horizontal">
+                                    <div class="icon icon-primary">
+                                        <i class="now-ui-icons location_pin"></i>
                                     </div>
-                                    <div class="card-body">
-                                        <div class="row">
-                                            <div class="col-md-6 pr-2">
-                                               <input type="hidden"  name="q" value="contactus" class="form-control" placeholder="Your Email...">
-                                         
-                                                <label>Name</label>
-                                                <div class="input-group">
-                                                    <div class="input-group-prepend">
-                                                        <span class="input-group-text"><i class="now-ui-icons users_circle-08"></i></span>
-                                                    </div>
-                                                    <input type="text" class="form-control" placeholder="First Name..." aria-label="First Name..." name="name" id="conname" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 pl-2">
-                                                <div class="form-group">
-                                                    <label>Email Address</label>
+                                    <div class="description">
+                                        <h4 class="info-title">Find us at the office</h4>
+                                        <p class="description"> UK -Kemp House, 
+                                            <br> 160 City Road,     London, 
+                                            <br> United Kingdom
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="info info-horizontal">
+                                    <div class="icon icon-primary">
+                                        <i class="now-ui-icons tech_mobile"></i>
+                                    </div>
+                                    <div class="description">
+                                        <h4 class="info-title">Give us a ring</h4>
+                                        <p class="description">
+                                            +40(0) 207 689 7888
+                                            <br> Mon - Fri, 8:00-22:00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ml-auto mr-auto">
+                                <div class="card card-contact card-raised">
+                                    <form role="form" id="contact-form" method="post" action="">
+                                        <div class="card-header text-center">
+                                            <h4 class="card-title">Contact Us</h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-6 pr-2">
+                                                   <input type="hidden"  name="q" value="contactus" class="form-control" placeholder="Your Email...">
+                                             
+                                                    <label>Name</label>
                                                     <div class="input-group">
                                                         <div class="input-group-prepend">
-                                                            <span class="input-group-text"><i class="now-ui-icons text_caps-small"></i></span>
+                                                            <span class="input-group-text"><i class="now-ui-icons users_circle-08"></i></span>
                                                         </div>
-                                                        <input type="email" class="form-control" placeholder="Email Address" aria-label="Last Name..." id="conemail" name="email" required>
+                                                        <input type="text" class="form-control" placeholder="First Name..." aria-label="First Name..." name="name" id="conname" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 pl-2">
+                                                    <div class="form-group">
+                                                        <label>Email Address</label>
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i class="now-ui-icons text_caps-small"></i></span>
+                                                            </div>
+                                                            <input type="email" class="form-control" placeholder="Email Address" aria-label="Last Name..." id="conemail" name="email" required>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label>Subject</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text"><i class="now-ui-icons ui-1_email-85"></i></span>
+                                            <div class="form-group">
+                                                <label>Subject</label>
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="now-ui-icons ui-1_email-85"></i></span>
+                                                    </div>
+                                                    <input type="text" class="form-control" name="subject" placeholder="Subject Here..." id="consubject" required>
                                                 </div>
-                                                <input type="text" class="form-control" name="subject" placeholder="Subject Here..." id="consubject" required>
+                                            </div> 
+                                             <div class="form-group">
+                                                <label>Your message</label>
+                                                <textarea name="message" class="form-control" id="conmessage" rows="6" id="conmessage" required> 
+                                                </textarea>
                                             </div>
-                                        </div> 
-                                         <div class="form-group">
-                                            <label>Your message</label>
-                                            <textarea name="message" class="form-control" id="conmessage" rows="6" id="conmessage" required> 
-                                            </textarea>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-check">
-                                                    <label class="form-check-label">
-                                                        <input class="form-check-input" type="checkbox" required id="concheck" value="1">
-                                                        <span class="form-check-sign"></span>
-                                                        I'm not a robot
-                                                    </label>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-check">
+                                                        <label class="form-check-label my-ro">
+                                                            <input class="form-check-input" type="checkbox" required id="concheck" value="1">
+                                                            <span class="form-check-sign" style="padding: 4px 20px 0px;"></span>
+                                                            I'm not a robot
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <button type="button" class="btn btn-primary btn-round pull-right" onclick="return contactus()" >Send Message </button>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
-                                                <button type="button" class="btn btn-primary btn-round pull-right" onclick="return contactus()" >Send Message </button>
-                                            </div>
                                         </div>
-                                    </div>
-                                </form>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
                <div class="section section-footers" style="padding: 0;" data-background-color="gray">
-                <div id="footer-areas">
-                    <footer class="footer footer-white footer-big">
-                        <div class="container">
-                            <div class="content">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <a href="#">
-                                            <h5>About Kryptual</h5>
-                                        </a>
-                                        <p style="color: black;">A Blockchain based marketplace for ICOs. We provide a user-friendly interface to help you launch a safe and secure Initial Coin Offering.</p>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <h5>About</h5>
-                                        <ul class="links-vertical">
-                                            
-                                            <li>
-                                                <a href="#">
-                                                    About Us
-                                                </a>
-                                            </li>
-                                           
-                                        </ul>
+                    <div id="footer-areas">
+                        <footer class="footer footer-white footer-big">
+                            <div class="container">
+                                <div class="content">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <a href="#">
+                                                <h5>About Kryptual</h5>
+                                            </a>
+                                            <p style="color: black;">A Blockchain based marketplace for ICOs. We provide a user-friendly interface to help you launch a safe and secure Initial Coin Offering.</p>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <h5>About</h5>
+                                            <ul class="links-vertical">
+                                                
+                                                <li>
+                                                    <a href="#">
+                                                        About Us
+                                                    </a>
+                                                </li>
+                                               
+                                            </ul>
 
-                                        <div style="margin-top: 20px;">
-                                            <h5>Referral</h5>
-                                        <ul class="links-vertical">
-                                            
-                                            <li>
-                                                <a href="raferal_program.html" target="_blank">
-                                                    Referral
-                                                </a>
-                                            </li>
-                                            
-                                        </ul>
+                                            <div style="margin-top: 20px;">
+                                                <h5>Become a Reseller</h5>
+                                            <ul class="links-vertical">
+                                                
+                                                <li>
+                                                    <a href="reseller.php" target="_blank">
+                                                        Reseller
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <h5>Market</h5>
+                                            <ul class="links-vertical">
+                                                <li>
+                                                    <a href="faq.php">
+                                                        FAQ
+                                                    </a>
+                                                </li>
+                                               
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <h5>Legal</h5>
+                                            <ul class="links-vertical">
+                                                <li>
+                                                    <a href="privacy_policy.php">
+                                                        Privacy and Policy
+                                                    </a>
+                                                </li>
+                                                
+                                            </ul>
+                                        </div>
+                                       
+                                        <div class="col-md-3">
+                                            <h5>Subscribe to Newsletter</h5>
+                                            <p style="color: black;">
+                                                Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.
+                                            </p>
+                                            <form class="form form-newsletter" method="post" action="" >
+                                                <div class="form-group">
+                                                    <input type="email" id="suscribeemail" name="email" class="form-control" placeholder="Your Email...">
+     
+                                                </div>
+                                                
+                                                <button type="button" class="btn btn-primary btn-icon btn-round" name="button" onclick="return getsubscribe();">
+                                                    <i class="now-ui-icons ui-1_email-85"></i>
+                                                </button>
+                                            </form>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <h5>Market</h5>
-                                        <ul class="links-vertical">
-                                            <li>
-                                                <a href="#">
-                                                    Sales FAQ
-                                                </a>
-                                            </li>
-                                           
-                                        </ul>
-                                    </div>
-                                    <div class="col-md-2">
-                                        <h5>Legal</h5>
-                                        <ul class="links-vertical">
-                                            <li>
-                                                <a href="#">
-                                                    Transactions FAQ
-                                                </a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </div>
-                                   
-                                    <div class="col-md-3">
-                                        <h5>Subscribe to Newsletter</h5>
-                                        <p style="color: black;">
-                                            Join our newsletter and get news in your inbox every week! We hate spam too, so no worries about this.
-                                        </p>
-                                        <form class="form form-newsletter" method="post" action="" >
-                                            <div class="form-group">
-                                                <input type="email" id="suscribeemail" name="email" class="form-control" placeholder="Your Email...">
- 
-                                            </div>
-                                            
-                                            <button type="button" class="btn btn-primary btn-icon btn-round" name="button" onclick="return getsubscribe();">
-                                                <i class="now-ui-icons ui-1_email-85"></i>
-                                            </button>
-                                        </form>
-                                    </div>
+                                </div>
+                                <hr />
+                                <ul class="social-buttons">
+                                    <li>
+                                        <a target="_blank" href="https://twitter.com/kryptual" class="btn btn-icon btn-neutral btn-twitter btn-lg">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a target="_blank" href="https://www.facebook.com/kryptual" class="btn btn-icon btn-neutral btn-facebook btn-lg">
+                                            <i class="fa fa-facebook-square"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="copyright pull-center">
+                                    Copyright &copy;
+                                    <script>
+                                    document.write(new Date().getFullYear())
+                                    </script> Kryptual All Rights Reserved.
                                 </div>
                             </div>
-                            <hr />
-                            <ul class="social-buttons">
-                                <li>
-                                    <a href="#" class="btn btn-icon btn-neutral btn-twitter btn-lg">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-icon btn-neutral btn-facebook btn-lg">
-                                        <i class="fa fa-facebook-square"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-icon btn-neutral btn-dribbble btn-lg">
-                                        <i class="fa fa-dribbble"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-icon btn-neutral btn-google btn-lg">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn btn-icon btn-neutral btn-youtube btn-lg">
-                                        <i class="fa fa-youtube-play"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="copyright pull-center">
-                                Copyright &copy;
-                                <script>
-                                document.write(new Date().getFullYear())
-                                </script> Creative Tim All Rights Reserved.
-                            </div>
-                        </div>
-                    </footer>
-                    <!--     *********   END BIG WHITE FOOTER v2     *********      -->
+                        </footer>
+                        <!--     *********   END BIG WHITE FOOTER v2     *********      -->
+                    </div>
                 </div>
-            </div>
             <!--         footer areas         -->
                 </div>
             </div>
         </div>
 </body>
 <!--   Core JS Files   -->
+<!-- cloudflair -->
+
 <script src="./assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js">
+    
+</script>
 <script src="apis/api.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function() {
@@ -621,7 +962,26 @@
      // swal("Here's a message!")
     });
 </script>
+<script type="text/javascript">
+       
+         $('.slider-nav').slick({
+           slidesToShow: 3,
+           slidesToScroll: 1,
+           asNavFor: '.slider-for',
+           dots: true,
+           focusOnSelect: true,
+           slidesToScroll: 1,
+           autoplay: true,
+           autoplaySpeed: 2000,
+         });
 
+  </script>
+<!-- start -->
+ <!--  <script type="text/javascript" src="./assets/js/slick.min.js"></script> -->
+  <!-- sda -->
+<!-- owl -->
+<!--  <script type="text/javascript" src="./assets/js/owl.carousel.min.js"></script> -->
+<!-- owl end -->
 <script src="https://lipis.github.io/bootstrap-sweetalert/dist/sweetalert.js" type="text/javascript"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115484250-1"></script>
 

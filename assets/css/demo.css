@@ -1874,7 +1874,7 @@ svg {
     padding: 10px;
 }
 .head-st-rt{
-    width: 60%;
+    width: 50%;
     float: left;
     border-right: 1px solid #d1d1d1;
 }
@@ -1882,7 +1882,7 @@ svg {
     margin-bottom: 0px;
 }
 .head-ico-img{
-    width: 40%;
+    width: 50%;
     float: left;
 }
 .head-ico-img img{
@@ -1894,7 +1894,7 @@ svg {
     margin-top: 10px;
     float: left;
     padding: 15px;
-    border-bottom: 1px solid #d6d6d6;
+    border-bottom: 1px solid #efefef;
 }
 .endros-logo .en-img{
     width: 50%;
@@ -1902,13 +1902,14 @@ svg {
     border-radius: 25px;
 }
 .endros-logo .en-img img{
-    width: 90%;
-    border-radius: 25px;
-        border: 2px solid #d6d6d6;
+    width: 54%;
+    border-radius: 50px;
+    border: 2px solid #ececec;
     }
 .endros-logo .en-name{
     width: 50%;
     float: right;
+    padding-top: 16px;
 }
 
 .endros-logo .en-name p{
@@ -1922,7 +1923,7 @@ svg {
     width: 100%;
     float: left;
     padding: 0px 15px;
-    border-bottom: 1px solid #d6d6d6;
+    border-bottom: 1px solid #efefef;
     margin-top: 5px;
 }
 .en-name1 p:frist-child{
@@ -1977,4 +1978,192 @@ svg {
     right: 0;
     opacity: 1;
 }
+.info {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 30px 0 30px;
+    text-align: center;
+    box-shadow: 0 0 35px rgba(0,0,0,.1);
+    margin-bottom: 30px;
+}
+.info.info-hover:after {
+    content: '';
+    position: absolute;
+    top: 0px !important;
+    right: -100px;
+    width: 200px;
+    height: 260px;
+    background: none;
+}
+}
+@media (max-width: 320px){
+    .my-type h1{
+        font-size: 30px;
+    }
+
+    .plane-container {
+    width: 296px;
+    margin: 0px auto;
+    z-index: 3;
+    margin-top: 290px;
+}
+
+}
+/*Robot css*/
+.my-ro .form-check .form-check-label {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 0px;
+    line-height: 26px;
+    margin-bottom: 0;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    transition: color 0.3s linear;
+}
+.view{
+    width: 100%;
+    float: left;
+    padding: 10px 0px;
+}
+.view .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #f96332;
+    border-color: #f96332;
+}
+/*live*/
+.generate-a .info.info-hover:after {
+    content: '';
+    position: absolute;
+    top: 0px !important;
+    right: -100px;
+    width: 200px;
+    height: 260px;
+     background: none; 
+}
+.generate-a{
+    width: 100%;
+    padding: 75px 0px;
+    background: #59c8e2;
+
+}
+.generate-a .info{
+    height: 300px;
+    background: #fff;
+    border-radius: 5px;
+}
+.generate-a .mr-auto{
+    margin-bottom: 30px;
+    color: #fff;
+}
+.generate-a .mr-auto h4{
+    margin-bottom: 30px;
+    color: #fff;
+}
+/*Card start*/
+.my-car-a{
+    width: 70%;
+    height: auto;
+    margin: 0px auto; 
+}
+.my-car-a img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0px auto;
+    border: 2px solid gainsboro; 
+
+}
+.my-rate-list {
+    color: #888888;
+    text-align: center;
+    width: 100%;
+ /*   padding: 0px 50px;*/
+    padding: 13px 46px 30px;
+    
+}
+.rat-a{
+    width: 100%;
+    float: left;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+}
+.rat-b{
+    width: 100%;
+    float: left;
+    font-weight: 600;
+    padding-top: 15px;
+     border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+}
+.rat-b{
+    width: 100%;
+    float: left;
+    font-weight: 600;
+}
+/*my-carous*/
+.main {
+  font-family:Arial;
+  width: 100%;
+  display:block;
+  margin:0 auto;
+}
+h3 {
+    background: #fff;
+    color: #3498db;
+    font-size: 36px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+.action{
+  display:block;
+  margin:100px auto;
+  width:100%;
+  text-align:center;
+}
+.action a {
+  display:inline-block;
+  padding:5px 10px; 
+  background:#f30;
+  color:#fff;
+  text-decoration:none;
+}
+.action a:hover{
+  background:#000;
+}
+/*my-card-a*/
+.car-slider{
+    width: 100%;
+   /* padding: 30px 0px;*/
+}
+
+.my-a-card{
+    width: 95%;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.my-a-card .info{
+   padding: 20px;
+}
+.card-start-a{
+    padding: 50px 0px;
+}
+.card-a-img img{
+    width: 70%;
+    
+}
+.card-a-img{
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    border:1px solid gray;
+    border-radius: 50%;
+    overflow: hidden;
 }
