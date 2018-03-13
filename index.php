@@ -75,14 +75,14 @@
                     </li>
 
                      <li class="nav-item">
-                        <a class="nav-link" href="http://103.201.142.41:90/krptual_dist/#/login" >
+                        <a class="nav-link" href="#" >
                             <i class="now-ui-icons users_circle-08"></i>
                             <p>Login</p>
                         </a>
                     </li>
 
                      <li class="nav-item">
-                        <a class="nav-link" href="http://103.201.142.41:90/krptual_dist/#/signupHome" >
+                        <a class="nav-link" href="https://www.kryptual.com/Kryptual" >
                             <i class="now-ui-icons tech_mobile"></i>
                             <p>Signup</p>
                         </a>
@@ -247,9 +247,9 @@
                             <div><h3>5</h3></div>
                           </div> -->
                           <h2 class="title text-center">Top ICOs</h2>
-                          <div class="slider slider-nav">
-                            <div class="">
-                                <div class="col-sm-12">
+                          <div class="slider slider-nav" style="max-height: 100%;">
+                            <div>
+                                <div class="col-sm-12 col-xs-12">
                                     <div class="my-a-card">
                                         <div class="row" style="padding: 20px;">
 
@@ -268,8 +268,8 @@
                                                     <div class="col-sm-12"><b>Token Holders:</b></div>
                                                     <div class="col-sm-12">289828 addresses</div>
                                                 </div>
-                                                <div style="text-align: center; ">
-                                                    <a href="https://eos.io/"  target="_blank" class="pull-right">View</a>
+                                                <div class="card-a-btn">
+                                                    <a href="https://eos.io/"  target="_blank" >View</a>
                                                 </div>
                                             </div>
                                             
@@ -278,6 +278,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div>
                                 <div class="col-sm-12">
                                     <div class="my-a-card">
@@ -298,8 +299,8 @@
                                                     <div class="col-sm-12"><b>Token Holders:</b></div>
                                                     <div class="col-sm-12">289828 addresses</div>
                                                 </div>
-                                                <div style="text-align: center; ">
-                                                    <a href="https://tron.network/enindex.html" class="pull-right" target="_blank">View</a>
+                                                <div class="card-a-btn">
+                                                    <a href="https://tron.network/enindex.html" target="_blank">View</a>
                                                 </div>
                                             </div>
 
@@ -307,6 +308,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div>
                                 <div class="col-sm-12">
                                     <div class="my-a-card">
@@ -327,8 +329,8 @@
                                                     <div class="col-sm-12"><b>Token Holders:</b></div>
                                                     <div class="col-sm-12">597454 addresses</div>
                                                 </div>
-                                                <div style="text-align: center; ">
-                                                    <a href="https://omisego.network/" target="_blank" class="pull-right">View</a>
+                                                <div class="card-a-btn">
+                                                    <a href="https://omisego.network/" target="_blank">View</a>
                                                 </div>
                                             </div>
 
@@ -336,6 +338,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div>
                                 <div class="col-sm-12">
                                     <div class="my-a-card">
@@ -356,8 +359,8 @@
                                                     <div class="col-sm-12"><b>Token Holders:</b></div>
                                                     <div class="col-sm-12">19321 addresses</div>
                                                 </div>
-                                                <div style="text-align: center; ">
-                                                    <a href="https://qtum.org/en/" target="_blank" class="pull-right">View</a>
+                                                <div class="card-a-btn">
+                                                    <a href="https://qtum.org/en/" target="_blank">View</a>
                                                 </div>
                                             </div>
 
@@ -365,6 +368,7 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div>
                                 <div class="col-sm-12">
                                     <div class="my-a-card">
@@ -385,8 +389,8 @@
                                                     <div class="col-sm-12"><b>Token Holders:</b></div>
                                                     <div class="col-sm-12">42357 addresses </div>
                                                 </div>
-                                                 <div style="text-align: center; ">
-                                                    <a href="https://icon.foundation/?lang=en" target="_blank" class="pull-right">View</a>
+                                                 <div class="card-a-btn">
+                                                    <a href="https://icon.foundation/?lang=en" target="_blank">View</a>
                                                 </div>
                                             </div>
 
@@ -394,64 +398,157 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- <div>
+
+                            <div>
                                 <div class="col-sm-12">
                                     <div class="my-a-card">
                                         <div class="row" style="padding: 20px;">
 
-                                            <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                           <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
                                                 <div class="card-a-img">
-                                                    <img src="assets/img/icon.png"  style="width: 100%; height: 100%;" />
+                                                    <img src="assets/img/binance.png"  style="width: 100%; height: 100%;" />
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-10">
                                                 <div class="row">
                                                     <div class="col-sm-12"><b>Value per Token:</b></div>
-                                                    <div class="col-sm-12">$2.6178 @ 0.003792 Eth (-1.91%)</div>
+                                                    <div class="col-sm-12">$8.2255 @ 0.011604 Eth (-0.94%)</div>
                                                 </div>
                                                 <div class="row">
                                                     <div class="col-sm-12"><b>Token Holders:</b></div>
-                                                    <div class="col-sm-12">42357 addresses No.Of.Transfers:</div>
+                                                    <div class="col-sm-12"> 294926 addresses </div>
                                                 </div>
-                                                <div style="text-align: center; ">
-                                                    <a href="https://icon.foundation/?lang=en" target="_blank" class="pull-right">View</a>
+                                                 <div class="card-a-btn">
+                                                    <a href="https://www.binance.com/" target="_blank">View</a>
                                                 </div>
                                             </div>
 
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
-                            <!-- <div>
+                            </div>
+
+                            <div>
                                 <div class="col-sm-12">
                                     <div class="my-a-card">
                                         <div class="row" style="padding: 20px;">
 
-                                            <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                           <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
                                                 <div class="card-a-img">
-                                                    <img src="assets/img/dawn.png" />
+                                                    <img src="assets/img/dg.jpeg"  style="width: 100%; height: 100%;" />
                                                 </div>
                                             </div>
 
                                             <div class="col-sm-10">
-                                                <div class="row" style="border-bottom: 1px solid #d8d8d8;">
-                                                    <div class="col-sm-4">Value per Token:</div>
-                                                    <div class="col-sm-8">$5.8357 @ 0.008338 Eth (-3.35%)</div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Value per Token:</b></div>
+                                                    <div class="col-sm-12">$347.6360 @ 0.489621 Eth (-2.15%)</div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-sm-5">Token Holders:</div>
-                                                    <div class="col-sm-7">289828 addresses</div>
+                                                    <div class="col-sm-12"><b>Token Holders:</b></div>
+                                                    <div class="col-sm-12"> 7933 addresses</div>
                                                 </div>
-                                                <div style="text-align: center; ">
-                                                    <a href="" class="pull-right">View</a>
+                                                 <div class="card-a-btn">
+                                                    <a href="https://digix.global/" target="_blank">View</a>
                                                 </div>
                                             </div>
 
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
+
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="my-a-card">
+                                        <div class="row" style="padding: 20px;">
+
+                                           <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                                <div class="card-a-img">
+                                                    <img src="assets/img/populous.jpeg"  style="width: 100%; height: 100%;" />
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Value per Token:</b></div>
+                                                    <div class="col-sm-12"> $18.9128 @ 0.026655 Eth ( 14.94%)</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Token Holders:</b></div>
+                                                    <div class="col-sm-12">23624 addresses</div>
+                                                </div>
+                                                 <div class="card-a-btn">
+                                                    <a href="https://populous.co/" target="_blank">View</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="my-a-card">
+                                        <div class="row" style="padding: 20px;">
+
+                                           <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                                <div class="card-a-img">
+                                                    <img src="assets/img/mkr.svg"  style="width: 100%; height: 100%;" />
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Value per Token:</b></div>
+                                                    <div class="col-sm-12">$813.8100 @ 1.143714 Eth (-3.26%)</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Token Holders:</b></div>
+                                                    <div class="col-sm-12"> 2378 addresses</div>
+                                                </div>
+                                                 <div class="card-a-btn">
+                                                    <a href="https://makerdao.com/" target="_blank">View</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="col-sm-12">
+                                    <div class="my-a-card">
+                                        <div class="row" style="padding: 20px;">
+
+                                           <div class="col-sm-2" style="padding: 0px; overflow: hidden;margin: 0px auto;">
+                                                <div class="card-a-img">
+                                                    <img src="assets/img/status.png"  style="width: 100%; height: 100%;" />
+                                                </div>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Value per Token:</b></div>
+                                                    <div class="col-sm-12"> $0.1375 @ 0.000194 Eth (-1.77%)</div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-12"><b>Token Holders:</b></div>
+                                                    <div class="col-sm-12"> 63903 addresses</div>
+                                                </div>
+                                                 <div class="card-a-btn">
+                                                    <a href="https://status.im/" target="_blank">View</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
                           </div>
                           <div class="action">
                             <!-- <a href="#" data-slide="3">go to slide 3</a>
@@ -466,64 +563,7 @@
                         </div>
                     </div>
                    
-                    <div class="blogs-5" data-background-color="gray">
-                        <div class="container">
-
-                            <div class="row">
-                                <div class="feature-title">
-                                    <div class="col-md-10 ml-auto mr-auto">
-                                        <h2 class="title">Featured ICOs</h2>
-                                        <div class="row">
-                                            <div class="col-md-4"><!-- endorsed -->
-                                            </div>
-                                            <div class="col-md-4"><!-- endorsed -->
-                                                <div class="card card-blog">
-                                                    <div class="head-adn">
-                                                        
-                                                        <div class="head-st-rt">
-                                                            <P style="font-weight: bold;">Start Days</P>
-                                                            <p>20 hrs</p>
-                                                        </div>
-                                                       
-                                                        <div class="head-ico-img">
-                                                           <a href="#"><img src="assets/img/endorsed.png" alt="kryptual" \></a> 
-                                                        </div>
-                                                        
-                                                    </div>
-                                                    <div class="endros-logo">
-                                                        <div class="en-img">
-                                                            <img src="assets/img/boutspro.jpeg" class="img-circle" alt="Kryptual">
-                                                        </div>
-                                                        <div class="en-name">
-                                                            <p>BoutsPro</p>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="en-name1">
-                                                        <p class="pull-left" style="font-weight: bold;">Token</p>
-                                                        <p class="pull-right">BoutsPro</p>
-                                                    </div>
-                                                    <div class="en-name1">
-                                                        <p class="pull-left" style="font-weight: bold;">Ticker</p>
-                                                        <p class="pull-right">BTSP</p>
-                                                    </div>
-                                                    <div class="view text-center">
-                                                        <a href="https://www.bouts.pro/" target="_blank" class="btn btn-primary hidesee" style="border-radius: 30px; padding: 10px 30px;">View</a>
-                                                    </div>
-                                                        
-                                                    
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4"><!-- endorsed -->
-                                            </div>
-                                          
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                <!-- Generate. List. Invest -->
                 <div class="generate-a">
                     <div class="container">
@@ -567,14 +607,14 @@
             <!-- Generate. List. Invest End -->
                 <div id="cards" class="section section-cards" data-background-color="gray">                    
                     <div class="cards">
-                        <div class="container text-center" style="padding: 10px 30px;">
+                        <div class="container text-center" style="padding: 10px 0px;">
                             <div class="row my-btn">
                                 
-                                 <div class="col-sm-7">
+                                 <div class="col-sm-8">
                                     <ul class="nav nav-pills nav-pills-primary" role="tablist">
 
                                      <li class="nav-item">
-                                            <a class="nav-link active" data-toggle="tab" href="#link2" role="tablist">
+                                            <a class="nav-link active" data-toggle="tab" href="#link" onclick="getalltokens(6)" role="tablist">
                                                 All
                                             </a>
                                         </li>
@@ -594,15 +634,22 @@
                                                 Past
                                             </a>
                                         </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link "  href="#link3" data-toggle="tab" role="tablist">
+                                                Featured
+                                            </a>
+                                        </li>
                                        
                                     </ul>
                                 </div>
-                                <div class="col-sm-5">
+                                
+
+                                <div class="col-sm-4 col-lg-4 ">
                                     <div class="row">
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-3">
                                             <p style="font-size: 15px; margin-top: 8px;">Filter By</p>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-4" style="padding: 0px;">
                                             <div class="form-group">
                                                 <select class="form-control selectdata1" id="exampleSelect1">
                                                  <option value="Sortby" > Sort By</option>
@@ -611,7 +658,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="col-sm-4">
+                                        <div class="col-sm-5" style="padding: 0px 0px 0px 5px;">
                                              <div class="form-group">      
                                                 <select class="form-control selectdata" id="sort" >
                                                 <option value="0">--Select--</option> 
@@ -623,121 +670,52 @@
                             </div>
                         </div>
 
+                                           <div class="tab-content"> <div id="link" >   
+
                         <div class="container">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="card card-pricing card-raised">
-                                        <div class="card-body">
-                                            <div class="icon icon-danger my-car-a">
-                                                <img src="assets/img/bg40.jpg" class="img-responsive">
-                                            </div>
-                                            <h4 class="category text-danger" style="margin-bottom: -18px;">
-                                                <i class="now-ui-icons media-2_sound-wave"></i>OP5</h4>
-                                            <h3 class="card-title">OP5</h3>
-                                            <div class="my-rate-list">
-                                                <div class="rat-a">
-                                                    <span class="pull-left"> 
-                                                        Rate
-                                                    </span> 
-                                                    <span class="pull-right">Market cap</span>
-                                                </div>
+                         <div class="row" id="tokensdetail"></div>
+                            <div class="row text-center" id="seemore" style="display: none;"><div class="col-12"><a href="javascript:;" onclick="getalltokens('All');" class="btn btn-primary hidesee">See More ...</a></div></div>
+                            </div>
+<!--
+<div id="link3" class="tab-pane fade">
 
-                                                <div class="rat-b">
-                                                    <span class="pull-left"> 
-                                                       1000
-                                                    </span> 
-                                                    <span class="pull-right">1000000</span>
-                                                </div>
-                                                <div class="price" style="padding: 0 20px;width: 100%;float: left; margin-top: 15px;"> 
-                                                    <h4 style="font-size: 15px;" id="demo1">16d 0h 19m 24s </h4> 
-                                                </div>
-                                            
-                                            </div>
-                                            <a href="#pablo" class="btn btn-primary btn-round">
-                                                View
-                                            </a>
-                                        </div>
+<div class="row">
+                            <div class="col-md-4">
+                                <div class="info info-hover">
+                                    <div class="icon icon-primary">
+                                        <img src="assets/img/live.png" style="width: 15%;">
                                     </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="card card-pricing card-raised">
-                                        <div class="card-body">
-                                            <div class="icon icon-danger my-car-a">
-                                                <img src="assets/img/bg40.jpg" class="img-responsive">
-                                            </div>
-                                            <h4 class="category text-danger" style="margin-bottom: -18px;">
-                                                <i class="now-ui-icons media-2_sound-wave"></i>OP5</h4>
-                                            <h3 class="card-title">OP5</h3>
-                                            <div class="my-rate-list">
-                                                <div class="rat-a">
-                                                    <span class="pull-left"> 
-                                                        Rate
-                                                    </span> 
-                                                    <span class="pull-right">Market cap</span>
-                                                </div>
-
-                                                <div class="rat-b">
-                                                    <span class="pull-left"> 
-                                                       1000
-                                                    </span> 
-                                                    <span class="pull-right">1000000</span>
-                                                </div>
-                                                <div class="price" style="padding: 0 20px;width: 100%;float: left; margin-top: 15px;"> 
-                                                    <h4 style="font-size: 15px;" id="demo1">16d 0h 19m 24s </h4> 
-                                                </div>
-                                            
-                                            </div>
-                                            <a href="#pablo" class="btn btn-primary btn-round">
-                                                View
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="card card-pricing card-raised">
-                                        <div class="card-body">
-                                            <div class="icon icon-danger my-car-a">
-                                                <img src="assets/img/bg40.jpg" class="img-responsive">
-                                            </div>
-                                            <h4 class="category text-danger" style="margin-bottom: -18px;">
-                                                <i class="now-ui-icons media-2_sound-wave"></i>OP5</h4>
-                                            <h3 class="card-title">OP5</h3>
-                                            <div class="my-rate-list">
-                                                <div class="rat-a">
-                                                    <span class="pull-left"> 
-                                                        Rate
-                                                    </span> 
-                                                    <span class="pull-right">Market cap</span>
-                                                </div>
-
-                                                <div class="rat-b">
-                                                    <span class="pull-left"> 
-                                                       1000
-                                                    </span> 
-                                                    <span class="pull-right">1000000</span>
-                                                </div>
-                                                <div class="price" style="padding: 0 20px;width: 100%;float: left; margin-top: 15px;"> 
-                                                    <h4 style="font-size: 15px;" id="demo1">16d 0h 19m 24s </h4> 
-                                                </div>
-                                            
-                                            </div>
-                                            <a href="#pablo" class="btn btn-primary btn-round">
-                                                View
-                                            </a>
-                                        </div>
-                                    </div>
+                                    <h4 class="info-title">Live Tracking</h4>
+                                    <p class="description">Know what you own and why you own it. Track your investments in real time.</p>
                                 </div>
                             </div>
+                            <div class="col-md-4">
+                                <div class="info info-hover">
+                                    <div class="icon icon-success">
+                                       <img src="assets/img/global.png" style="width: 15%;">
+                                    </div>
+                                    <h4 class="info-title">Global. Safe. Easy</h4>
+                                    <p class="description">Built with highest security standards, we accept major cryptocurrency assets from anyone in the world.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="info info-hover">
+                                    <div class="icon icon-warning">
+                                        <img src="assets/img/enhance.png" style="width: 15%;">
+                                    </div>
+                                    <h4 class="info-title">Enhance your ICO</h4>
+                                    <p class="description">Opt from numerous available add-ons such as PR consulting , ICO pricing, Audit report and many more and take your idea the next mile.</p>
+                                </div>
+                            </div>
+
+
                         </div>
 
-                        <!-- <div class="container">
-                            <div class="row" id="tokensdetail"></div>
-                            <div class="row text-center" id="seemore" style="display: none;">
-                                <div class="col-12"><a href="javascript:;" onclick="getalltokens('All');" class="btn btn-primary hidesee">See More ...</a>
-                                </div>
-                            </div>
+</div> </div> -->
                            
-                        </div> -->
+                        </div>
+
+                      
                             
                     </div>
                </div>
@@ -964,7 +942,39 @@
 </script>
 <script type="text/javascript">
        
-         $('.slider-nav').slick({
+         // $('.slider-nav').slick({
+         //   slidesToShow: 3,
+         //   slidesToScroll: 1,
+         //   asNavFor: '.slider-for',
+         //   dots: true,
+         //   focusOnSelect: true,
+         //   slidesToScroll: 1,
+         //   autoplay: true,
+         //   autoplaySpeed: 2000,
+         // });
+
+       
+ if( navigator.userAgent.match(/Android/i)
+ || navigator.userAgent.match(/webOS/i)
+ || navigator.userAgent.match(/iPhone/i)
+ || navigator.userAgent.match(/iPad/i)
+ || navigator.userAgent.match(/iPod/i)
+ || navigator.userAgent.match(/BlackBerry/i)
+ || navigator.userAgent.match(/Windows Phone/i)
+ ){
+$('.slider-nav').slick({
+           slidesToShow: 1,
+           slidesToScroll: 1,
+           asNavFor: '.slider-for',
+           dots: true,
+           focusOnSelect: true,
+           slidesToScroll: 1,
+           autoplay: true,
+           autoplaySpeed: 2000,
+         });
+  }
+ else {
+    $('.slider-nav').slick({
            slidesToShow: 3,
            slidesToScroll: 1,
            asNavFor: '.slider-for',
@@ -974,6 +984,7 @@
            autoplay: true,
            autoplaySpeed: 2000,
          });
+}
 
   </script>
 <!-- start -->

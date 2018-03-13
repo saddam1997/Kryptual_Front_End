@@ -4001,7 +4001,7 @@ fieldset[disabled] .btn-neutral.active {
 .btn-round {
     border-width: 1px;
     border-radius: 30px !important;
-    padding: 11px 23px;
+    padding: 11px 35px;
 }
 
 .btn-round.btn-simple {
@@ -10659,6 +10659,7 @@ Created using IcoMoon - icomoon.io
 .contactus-1 .info .icon {
     margin-top: 19px;
     color: #FFFFFF;
+    margin-left: 10px;
 }
 
 .contactus-1 .card-contact {

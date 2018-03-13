@@ -1882,12 +1882,9 @@ svg {
     margin-bottom: 0px;
 }
 .head-ico-img{
-    width: 50%;
-    float: left;
+    width: 100%;
 }
-.head-ico-img img{
-    float: right;
-}
+
 
 .endros-logo{
     width: 100%;
@@ -1995,6 +1992,28 @@ svg {
     height: 260px;
     background: none;
 }
+/*Card*/
+.card-a-img {
+    padding: 0px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+.card-a-btn a{
+    /*float: right; */
+    background: #f96332;
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 14px;
+}
+.card-a-btn{
+    text-align: center;
+    margin-top: 10px;
+}
 }
 @media (max-width: 320px){
     .my-type h1{
@@ -2088,6 +2107,7 @@ svg {
     width: 100%;
     float: left;
     font-weight: 600;
+    padding-top: 15px;
     border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 }
 .rat-b{
@@ -2097,10 +2117,12 @@ svg {
     padding-top: 15px;
      border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 }
-.rat-b{
+.rat-c{
     width: 100%;
     float: left;
     font-weight: 600;
+    padding-bottom: 15px;
+     border-bottom: 1px solid rgba(136, 136, 136, 0.3);
 }
 /*my-carous*/
 .main {
@@ -2159,11 +2181,36 @@ h3 {
     
 }
 .card-a-img{
-    margin: 0px;
     padding: 0px;
     width: 50px;
     height: 50px;
     border:1px solid gray;
     border-radius: 50%;
     overflow: hidden;
+}
+.card-a-btn{
+    text-align: center;
+    float: right;
+
+}
+.slider.slick-next:before, .slick-prev:before {
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #000;
+}
+/*featur*/
+
+.my-car-a{
+    width: 70%;
+    height: auto;
+    margin: 0px auto; 
+}
+.my-car-a img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0px auto;
+    border: 2px solid gainsboro; 
+
 }

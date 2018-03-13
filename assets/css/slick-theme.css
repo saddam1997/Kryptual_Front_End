@@ -71,7 +71,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: gray;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -201,4 +201,9 @@
 {
     opacity: .75;
     color: black;
+}
+@media screen and  (min-device-width: 320px) and (max-device-width: 480px) {
+    .slick-slide{
+        width: 350px;
+    }
 }

@@ -160,45 +160,42 @@ document.getElementById("demo<?php echo $j; ?>").innerHTML = "EXPIRED";
 }
 }, 1000);
                            </script>
-                      <div class="col-md-4  col-lg-4 ">
-                                    <div class="card card-blog">
-                                        <div class="card-image">
-                                            <a href="#">
-                                                <img class="img rounded" src="<?php if($data['tokenImage']==null) { echo 'assets/img/No-preview.png' ;} else { echo  $data['tokenImage'] ;} ?>" style="height: 220px;" />
+             
+
+                                     <div class="col-sm-4">
+                                    <div class="card card-pricing card-raised">
+                                        <div class="card-body">
+                                            <div class="icon icon-danger my-car-a">
+                                                <img src="<?php if($data['tokenImage']==null) { echo 'assets/img/No-preview.png' ;} else { echo  $data['tokenImage'] ;} ?>" style="height: 150px;" class="img-responsive">
+                                            </div>
+                                            <h4 class="category text-danger" style="margin-bottom: -18px;">
+                                                <i class="now-ui-icons media-2_sound-wave"></i><?php echo $data['tokenTicker'] ; ?></h4>
+                                            <h3 class="card-title"><?php echo $data['tokenName'] ; ?></h3>
+                                            <div class="my-rate-list">
+                                                <div class="rat-a">
+                                                    <span class="pull-left"> 
+                                                        Rate
+                                                    </span> 
+                                                    <span class="pull-right">Market cap</span>
+                                                </div>
+
+                                                <div class="rat-b">
+                                                    <span class="pull-left"> 
+                                                      <?php echo $data['tokenRate'] ; ?>
+                                                    </span> 
+                                                    <span class="pull-right"><?php echo $data['tokenSupply'] ; ?></span>
+                                                </div>
+                                                <div class="price" style="padding: 0 20px;width: 100%;float: left; margin-top: 15px;"> 
+                                                    <h4 style="font-size: 15px;" id="demo<?php echo $j; ?>"> </h4> 
+                                                </div>
+                                            
+                                            </div>
+                                            <a href="#pablo" class="btn btn-primary btn-round">
+                                                View
                                             </a>
                                         </div>
-                                        <div class="card-body text-center">
-                                            <h6 class="category text-danger">
-                                                <i class="now-ui-icons media-2_sound-wave"></i> <?php echo $data['tokenTicker'] ; ?>
-                                            </h6>
-                                            <h5 class="card-title" id="tokenName">
-                                                <?php echo $data['tokenName'] ; ?>
-                                            </h5>
-                                            <p class="card-description">
-                                              
-                                                                                                
-                                                <div class="price" style="float: left;text-align: left;">
-                                                    <span>Rate</span> 
-                                                    <h4><?php echo $data['tokenRate'] ; ?></h4> 
-                                                </div> 
-                                                <div class="price pull-right"> 
-                                                    <span>Market cap</span> 
-                                                    <h4><?php echo $data['tokenSupply'] ; ?></h4> 
-                                                </div>                                            
-                                            
-                                                <div class="price" style="padding: 0 20px;width: 100%;float: left;"> 
-                                                    <h4 style="font-size: 15px;" id="demo<?php echo $j; ?>"></h4> 
-                                                </div> 
-                                            </p>
-                                        </div>
-                                            
-                                            
-                                            <div class="card-footer" style="float: left;width: 100%;float: left;width: 100%;padding: 0;margin: 0 10px;">
-                                                <a href="#" class="btn btn-primary" style="display: block;margin: 0px 0 30px 50px;width: 60%;">View</a>
-                                            </div>
-                                            
-                                        </div>
                                     </div>
+                                </div>
 
 <?php 
 }
